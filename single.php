@@ -21,7 +21,7 @@
       <div class="container">
         <div class="row">		
 		
-		
+					
           <!-- start content -->
           <div class="col-lg-8 col-md-8 col-sm-8 <?php if( get_theme_mod( 'ultraResponsive_sidebar_settings', 'right') == 'left' ): echo "col-md-push-4"; endif; ?>">
             <div class="courseArchive_content">			
@@ -90,7 +90,6 @@
 					  <!-- start related post -->
 					  <?php get_template_part('inc/related-posts');?>
 					  <!-- End related post --> 
-
 
 					  <?php 
 							

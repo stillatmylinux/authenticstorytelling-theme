@@ -18,8 +18,8 @@
     <section id="courseArchive">	
 	  
 	
-      <div class="container">
-        <div class="row">		
+  	    <div class="container">
+        <div class="row">	
 		
 		
           <!-- start content -->
@@ -51,8 +51,8 @@
 						</div>
 						
 						<?php endif; ?>
-						
 						<div class="single_page_content_container">
+						
 						
 							<h1 class="blog_title"><?php the_title();?></h1>
 							<br/>

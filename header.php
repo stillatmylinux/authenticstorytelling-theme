@@ -92,4 +92,7 @@
     </header>
     <!--=========== END HEADER SECTION ================--> 
 
+<p>
+
 	<?php get_template_part('inc/banner');?>
+<br>

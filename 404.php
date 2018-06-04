@@ -19,10 +19,12 @@
       <div class="container">
 	  
         <div class="error_page_content">
-             <h1><?php _e('404', 'wpf-ultraresponsive'); ?></h1>
-             <h2><?php _e('Sorry!', 'wpf-ultraresponsive'); ?></h2>
-             <h3><?php _e('This page doesn\'t exist.', 'wpf-ultraresponsive'); ?></h3>
-             <p class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;"><?php printf( __('Please, search below or continue to our <a href="%1$s">Home</a>', 'wpf-ultraresponsive'), esc_url( home_url( '/' ) ) ); ?></p>
+             <h2><?php _e('Lame!!!', 'wpf-ultraresponsive'); ?></h2>
+                        <h3><?php _e('There are no stories here, except in that video! ', 'wpf-ultraresponsive'); ?></h3>
+             <p class="wow fadeInLeftBig animated" style="visibility: visible; animation-name: fadeInLeftBig;"><?php printf( __('Please search for some better stories below, continue to the <a href="%1$s">blog</a> or watch the video below.', 'wpf-ultraresponsive'), esc_url( home_url( '/' ) ) ); ?>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nlcULbWeNk8" frameborder="0" allowfullscreen></iframe>
+
+</p>
 			 
 			<div class="clearfix"></div>
 			<div class="search_form">
